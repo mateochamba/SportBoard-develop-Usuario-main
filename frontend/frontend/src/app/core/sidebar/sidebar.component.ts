@@ -19,14 +19,10 @@ export class SidebarComponent {
         sidenav.toggle();
     }
 
-    navigateToCrearUsuario() {
-        this.router.navigate(['/usuarios/crear-usuario']);
-    }
+    
     navigateToGestionUsuario() {
         this.router.navigate(['/usuarios/gestion-usuario']);
     }
-    navigateToEditarUsuario() {
-        this.router.navigate(['/usuarios/editar-usuario']);
-    }
+
 
 }
